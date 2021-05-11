@@ -9,6 +9,8 @@ using PaymentAPI.Model;
 
 namespace PaymentAPI.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class PaymentDetailsController : Controller
     {
         private readonly PaymentContext _context;
